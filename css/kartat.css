@@ -1,0 +1,39 @@
+.otsikkoalue{
+  background-color: lightgray;
+  width: 100%;
+  height: 20vh;
+  border-style: solid;
+  border-color: #339966;
+  text-align: center;
+}
+
+.otsikkoteksti{
+  margin-top: 2vh;
+  color: #339966;
+  font-family: cursive;
+  font-size: 8vh;;
+}
+
+#kartta{
+  width: 100%;
+  height: 75vh;
+  border-style: solid;
+  border-color: #339966;
+}
+
+.tallenna_nappi{
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  border: solid;
+  border-radius: 50px;
+  border-width: 20px;
+  position: absolute;
+  bottom: 50px;
+  right: 20px;
+  font-size: 24px;
+}
+
+#arvostelulomake{
+  display: none;
+}
