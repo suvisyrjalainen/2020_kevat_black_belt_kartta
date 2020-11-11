@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Black belttien karttaprojekti 2020</title>
+    <link rel="icon" href="https://storage.needpix.com/rsynced_images/icon-2073971_1280.png">
 
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css">
 
@@ -42,15 +43,18 @@
   </div>
 
   <div id="arvostelulomake">
-    <form>
+    <form class="form-inline">
       <div class="form-group">
           <label for="paikka">Paikka:</label>
           <input type="text" class="form-control" id="paikka">
       </div>
+
       <div class="form-group">
           <label for="arvostelu">Arvostelu:</label>
           <input type="text" class="form-control" id="arvostelu">
+          <button onclick="kirjoita_kartalle()" type="button" class="ok_nappi">OK</button>
       </div>
+      <!--<button type="button" class="ok_nappi">OK</button>-->
     </form>
   </div>
 

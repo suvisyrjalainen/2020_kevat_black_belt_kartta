@@ -11,7 +11,7 @@
   margin-top: 2vh;
   color: #339966;
   font-family: cursive;
-  font-size: 8vh;;
+  font-size: 8vh;
 }
 
 #kartta{
@@ -32,6 +32,18 @@
   bottom: 50px;
   right: 20px;
   font-size: 24px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5), 0 6px 20px 0 rgba(0,0,0,0.5);
+}
+
+.ok_nappi{
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border: solid;
+  border-radius: 25px;
+  border-width: 10px;
+  font-size: 12px;
+  box-shadow: 0 4px 9px 0 rgba(0,0,0,0.5), 0 3px 10px 0 rgba(0,0,0,0.5);
 }
 
 #arvostelulomake{
